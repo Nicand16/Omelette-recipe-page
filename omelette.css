@@ -1,0 +1,98 @@
+#container {
+width: 50%;
+margin: auto;
+padding: 20px;
+background-color: white;
+border-radius: 15px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+body{
+background-color:bisque;
+}
+img {
+            width: 100%;
+            height: auto;
+            border-radius: 15px;
+            display: block;
+            align-items: center;
+        }
+h1 {
+    color: #333;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Outfit', sans-serif;
+}
+#prep-time{
+    background-color: rgba(254, 216, 216, 0.312);
+    padding: 10px;
+    border-radius: 10px;
+}
+h3 {
+    color: hsl(332, 51%, 32%);
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    font-family: 'Outfit', sans-serif;
+    
+}
+li {
+    color: #555;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    font-family: 'Outfit', sans-serif;
+}
+p {
+    color: #666;
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-family: 'Outfit', sans-serif;
+}
+h2 {
+    color: hsl(14, 45%, 36%);
+    font-size: 2em;
+    margin-bottom: 15px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.image-container {
+    width: 50%;
+    height: 100x;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ol {
+    counter-reset: contador;
+}
+
+ol li {
+    counter-increment: contador;
+    list-style: none; /* Oculta los números predeterminados */
+}
+
+ol li::before {
+    content: counter(contador) ". ";
+    color: hsl(14, 45%, 36%); /* Cambia el color del número */
+    font-weight: bold;   
+}
+
+table {
+            width: 50%;
+            border-collapse: collapse;
+            margin: 20px auto;
+            font-family: Arial, sans-serif;
+            text-align: left;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+th {
+    background-color: hsl(330, 100%, 98%);
+}
+td {
+    font-weight: bold;
+}
